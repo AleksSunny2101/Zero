@@ -1,0 +1,10 @@
+import math
+
+# Probability of getting a zero on a single spin
+prob_zero = 1/37
+
+# Calculate the probability of getting a zero three times in a row
+prob_three_zeros = prob_zero**3
+
+print("The probability of getting a zero three times in a row is:", prob_three_zeros)
+print("Approximately:", math.ceil(1/prob_three_zeros), "spins")
